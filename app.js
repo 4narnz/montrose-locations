@@ -61,11 +61,11 @@ document.getElementById('find-office').addEventListener('click', () => {
         }
       }
 
-      // Sort and get top 2
+      // Sort and get top 3
       validDistances.sort((a, b) => a.distanceValue - b.distanceValue);
-      let top2 = validDistances.slice(0, 2);
+      let top3 = validDistances.slice(0, 3);
 
-      if (top2.length === 0) {
+      if (top3.length === 0) {
         document.getElementById('results').innerText =
           'No valid results found.';
         return;
