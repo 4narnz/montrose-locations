@@ -73,7 +73,7 @@ document.getElementById('find-office').addEventListener('click', () => {
 
       // Display results
       let output = 'Closest Montrose Offices:\n\n';
-      top2.forEach((entry, rank) => {
+      top3.forEach((entry, rank) => {
         const office = offices[entry.index];
         output += `${rank + 1}. ${office.name}\nDistance: ${
           entry.distanceText
