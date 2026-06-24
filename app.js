@@ -6,7 +6,7 @@ const offices = [
   { name: 'USA-AZ-Phoenix', address: 'Phoenix, AZ' },
   { name: 'USA-LA-Baton Rouge', address: 'Baton Rouge, LA' },
   { name: 'USA-AL-Pelham', address: 'Pelham, AL' },
-  { name: 'USA-OH-Brecksville', address: 'Brecksville, OH' },
+  { name: 'USA-OH-Cleveland', address: 'Cleveland, OH' },
   { name: 'USA-VA-Roanoke', address: 'Roanoke, VA' },
   { name: 'USA-MA-Newburyport', address: 'Newburyport, MA' },
   { name: 'USA-PA-Bethlehem', address: 'Bethlehem, PA' },
@@ -14,7 +14,6 @@ const offices = [
   { name: 'USA-WA-Auburn', address: 'Auburn, WA' },
   { name: 'USA-IL-Elk Grove Village', address: 'Elk Grove Village, IL' },
   { name: 'USA-TX-Deer Park', address: 'Deerwood Glen Dr, Deer Park, TX' },
-  { name: 'USA-TX-New Braunfels', address: 'New Braunfels, TX' },
   { name: 'USA-WA-Bellingham', address: 'Bellingham, WA' },
   { name: 'USA-CO-Denver', address: 'Denver, CO' },
   { name: 'USA-MI-Mt Pleasant', address: 'Mt Pleasant, MI' },
@@ -22,6 +21,7 @@ const offices = [
   { name: 'USA-FL-Plant City', address: 'Plant City, FL' },
   { name: 'USA-UT-Spanish Fork', address: 'Spanish Fork, UT' },
   { name: 'USA-TX-Carrollton', address: 'Carrollton, TX' },
+  { name: 'USA-NV-Elko', address: 'Elko, NV' },
 ];
 
 document.getElementById('find-office').addEventListener('click', () => {
