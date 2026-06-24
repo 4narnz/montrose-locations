@@ -13,7 +13,6 @@ const offices = [
   { name: 'USA-PA-Pittsburgh', address: 'Pittsburgh, PA' },
   { name: 'USA-WA-Auburn', address: 'Auburn, WA' },
   { name: 'USA-IL-Elk Grove Village', address: 'Elk Grove Village, IL' },
-  { name: 'USA-IL-Wauconda', address: 'Wauconda, IL' },
   { name: 'USA-TX-Deer Park', address: 'Deerwood Glen Dr, Deer Park, TX' },
   { name: 'USA-TX-New Braunfels', address: 'New Braunfels, TX' },
   { name: 'USA-WA-Bellingham', address: 'Bellingham, WA' },
@@ -72,7 +71,7 @@ document.getElementById('find-office').addEventListener('click', () => {
       }
 
       // Display results
-      let output = 'Closest Montrose Offices:\n\n';
+      let output = 'Closest Onterris Offices:\n\n';
       top3.forEach((entry, rank) => {
         const office = offices[entry.index];
         output += `${rank + 1}. ${office.name}\nDistance: ${
